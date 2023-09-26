@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kaushan+Script&display=swap');
+:root {
+    --primary-color: #084C61;
+    --secondary-color: #00A1E0;
+    --accent1-color: #F58F00;
+    --accent2-color: #288F4B;
+
+    --heading-font: "Kaushan Script", handwriting;
+    --paragraph-font: "Chakra Petch", display;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #3F826D;
+    --nav-hover-link-color: #4C5569;
+    --nav-hover-background-color: #CCDBDC;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--nav-hover-background-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
