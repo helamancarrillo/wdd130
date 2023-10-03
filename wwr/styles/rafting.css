@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Kaushan+Script&display=swap');
+:root { 
+    --primary-color: #084C61;
+    --secondary-color: #00A1E0;
+    --accent1-color: #F58F00;
+    --accent2-color: #288F4B;
+
+    --heading-font: "Kaushan Script", handwriting;
+    --paragraph-font: "Chakra Petch", display;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #3F826D;
+    --nav-hover-link-color: #4C5569;
+    --nav-hover-background-color: #CCDBDC;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+    color: black;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+.underline {
+    text-decoration: none;
+    color: black;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #CCDBDC;
+}
+
+.hero article {
+    position: absolute;
+    top: 30%;
+    background-color: rgba(160, 160, 225,.5);
+    margin: 30px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto; 
+}
+
+.hero p {
+    font-size: 1rem;
+    color: solid black;
+    right: 30%;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 2%;
+}
+footer {
+    text-align: center;
+}
+/*h1 {
+    text-align: center;
+    background-image: url(heroimage.jpg);
+} */
+
+/*h1, article {
+    position: absolute;
+}*/
+
+#nor {
+    float: right;
+    width: 160px;
+    height: 140px;
+    margin: 20px;
+}
+h2{
+    color: var(--accent1-color);
+}
+
+
+
+
+ /*#ty {
+    float: right;
+}
+#tre {
+    position: relative;
+}
+#yui {
+    position: absolute;
+}*/
+
+
+
