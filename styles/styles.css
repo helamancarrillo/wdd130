@@ -15,7 +15,9 @@ nav a {
 h1 {
     color: steelblue;
     margin: 1rem;
+    border-bottom: solid orange;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -26,9 +28,9 @@ img {
 p {
     padding: 0;
 }
-main {
-    max-width: 840px;
-}
+
+/* here it was a main{} */
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -76,11 +78,55 @@ aside h2{
     position: absolute;
     top: 20px;
     right: 110px;
-    color: bisque;
+    color: orange;
 
 }
+
+li{
+    color: orange;
+    text-decoration: none;
+} 
 
 .indent{
     padding-left: 2em;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight: 500;
+
+
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
+
+aside{ 
+    width: 20rem;
+    position: relative;
+    grid-column: 1 / 2; 
+    grid-row: 1 /2 ; 
+}
