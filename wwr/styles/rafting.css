@@ -102,7 +102,6 @@ h2{
 header {
     display: grid;
     grid-template-columns: repeat(1, 150px 1fr) ;
-    
 } 
 
 header img {
@@ -170,7 +169,6 @@ header a:hover {
     grid-template-columns: 234.8px 227.8px 227.8px 227.8px 227.8px;
     grid-template-rows: 50px 215px;
     gap: 4px;
-    background-color:;
 }
     /* rgb(111, 193, 111) 
     rgb(232, 186, 101)*/
@@ -255,7 +253,6 @@ footer p {
     margin-block-end: 1em;
     margin-inline-start: 188px;
     margin-inline-end: 0px;
-}
 }
 
 
