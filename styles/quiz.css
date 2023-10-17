@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Open+Sans:ital,wght@1,300&family=Pixelify+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Chakra Petch;
+}
+
+form {
+    border: 1px solid rgb(14, 184, 113);
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    background-color:antiquewhite;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type='number'],
+input[type='submit'],
+input[type='text'], 
+textarea, 
+select {
+    width: 453px;
+} 
+
+/*input[type='submit']{
+    width: 453px;
+} 
+
+textarea {
+    width: 453px;
+}
+
+select {
+    width: 453px;
+
+} */
