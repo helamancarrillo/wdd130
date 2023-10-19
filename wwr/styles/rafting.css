@@ -327,7 +327,7 @@ footer p {
     font-size: 40px;
 }
 
-.wet {
+.form {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -335,7 +335,7 @@ footer p {
     width: 100;
 }
 
-.wat {
+.div {
     border: 3px solid green;
     padding: 20px;
     text-align: left;
